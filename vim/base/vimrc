@@ -43,7 +43,16 @@ set hlsearch                    " Highlight found searches
 set ignorecase                  " Search case insensitive...
 set smartcase                   " ... but not when search pattern contains upper case characters
 
+set sw=4
+set tw=4
+set sts=4
+
 set switchbuf=usetab,newtab     " open new buffers always in new tabs
+
+" set mapleader
+" EasyMotion
+let mapleader=","
+let g:EasyMotion_leader_key = '<Leader>'
 
 " ----------------------------------------------"
 " MacVim modifications (color, shortcuts, etc.. "
@@ -51,12 +60,16 @@ set switchbuf=usetab,newtab     " open new buffers always in new tabs
 "http://stackoverflow.com/questions/14802689/macvim-wont-load-specific-color-scheme-by-default
 let macvim_skip_colorscheme=1
 let g:molokai_original=1
-colorscheme molokai
 highlight SignColumn guibg=#272822   
+
+" set colorscheme to solarized
+syntax enable
+set background=dark
+colorscheme solarized
 
 if has("gui_macvim")
   " No toolbars, menu or scrollbars in the GUI
-  set guifont=Source\ Code\ Pro\ for\ Powerline:h12 "TODO: include these fonts by default
+  set guifont=Source\ Code\ Pro\ for\ Powerline:h15 "TODO: include these fonts by default
   set clipboard+=unnamed
   set vb t_vb=
   set guioptions-=m  "no menu
@@ -220,3 +233,4 @@ au BufEnter * exec "inoremap <silent> " . g:UltiSnipsExpandTrigger . " <C-R>=g:U
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsListSnippets="<c-e>"
 let g:UltiSnipsSnippetDirectories = ["UltiSnips", "ultisnips-snippets"]
+
