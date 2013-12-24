@@ -9,15 +9,14 @@ if isdirectory(expand("$HOME/.vim/custom/"))
 endif
 execute pathogen#helptags()
 
-syntax on
 filetype plugin indent on
 
 " check for ctags folder, if not exist extract our ctags binary
 if !isdirectory(expand("$HOME/.vim/binary/ctags/"))
-	let ctags_bottle_dir =  expand("$HOME/.vim/binary/")
-	let ctags_bottle_file = expand("$HOME/.vim/binary/ctags-5.8.mountain_lion.bottle.tar.gz")
-	execute "cd ".ctags_bottle_dir
-	execute "!tar xfv ".ctags_bottle_file
+    let ctags_bottle_dir =  expand("$HOME/.vim/binary/")
+    let ctags_bottle_file = expand("$HOME/.vim/binary/ctags-5.8.mountain_lion.bottle.tar.gz")
+    execute "cd ".ctags_bottle_dir
+    execute "!tar xfv ".ctags_bottle_file
 endif
 
 set noerrorbells                " No beeps
