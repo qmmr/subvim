@@ -42,8 +42,9 @@ set hlsearch                    " Highlight found searches
 set ignorecase                  " Search case insensitive...
 set smartcase                   " ... but not when search pattern contains upper case characters
 
+set noet			" noexpandtab
 set sw=4
-set tw=4
+"set tw=4
 set sts=4
 
 set switchbuf=usetab,newtab     " open new buffers always in new tabs
@@ -68,7 +69,8 @@ colorscheme solarized
 
 if has("gui_macvim")
   " No toolbars, menu or scrollbars in the GUI
-  set guifont=Source\ Code\ Pro\ for\ Powerline:h15 "TODO: include these fonts by default
+  "set guifont=Source\ Code\ Pro\ for\ Powerline:h15 "TODO: include these fonts by default
+  set guifont=Inconsolata\ for\ Powerline:h15
   set clipboard+=unnamed
   set vb t_vb=
   set guioptions-=m  "no menu
