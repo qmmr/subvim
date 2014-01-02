@@ -58,6 +58,9 @@ nnoremap <C-l> <C-w>l
 " Map escape key to jj -- much faster
 imap jj <esc>
 
+" show all whitespace chars by :set list
+:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 " set mapleader
 " EasyMotion
 let mapleader=","
