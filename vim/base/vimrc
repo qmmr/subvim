@@ -55,6 +55,9 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Map escape key to jj -- much faster
+imap jj <esc>
+
 " set mapleader
 " EasyMotion
 let mapleader=","
