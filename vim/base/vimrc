@@ -43,6 +43,7 @@ set ignorecase                  " Search case insensitive...
 set smartcase                   " ... but not when search pattern contains upper case characters
 
 set noet			" noexpandtab
+set ts=4			" length of tab equals 4 spaces
 set sw=4
 "set tw=4
 set sts=4
