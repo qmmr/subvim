@@ -44,6 +44,9 @@ set smartcase                   " ... but not when search pattern contains upper
 
 set foldmethod=indent
 
+" easy folding with Spacebar
+nnoremap <Space> za
+
 set noet			" noexpandtab
 set ts=4			" length of tab equals 4 spaces
 set sw=4
