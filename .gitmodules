@@ -7,3 +7,6 @@
 [submodule "vim/base/fugitive"]
 	path = vim/base/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/base/easymotion"]
+	path = vim/base/easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
