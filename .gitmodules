@@ -7,3 +7,6 @@
 [submodule "vim/base/easymotion"]
 	path = vim/base/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "vim/base/colors-solarized"]
+	path = vim/base/colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
