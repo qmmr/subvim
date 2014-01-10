@@ -10,3 +10,6 @@
 [submodule "vim/base/colors-solarized"]
 	path = vim/base/colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/base/session"]
+	path = vim/base/session
+	url = https://github.com/xolox/vim-session.git
