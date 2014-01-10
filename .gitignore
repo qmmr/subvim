@@ -3,4 +3,5 @@ custom
 /vim/binary/ctags/
 
 vim/base/mustache/
-vim/base/vim-easymotion/
+vim/base/fugitive/
+vim/base/easymotion/
