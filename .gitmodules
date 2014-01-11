@@ -13,3 +13,6 @@
 [submodule "vim/base/session"]
 	path = vim/base/session
 	url = https://github.com/xolox/vim-session.git
+[submodule "vim/base/misc"]
+	path = vim/base/misc
+	url = https://github.com/xolox/vim-misc.git
