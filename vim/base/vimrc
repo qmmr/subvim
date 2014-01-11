@@ -46,6 +46,7 @@ set foldmethod=indent
 
 " easy folding with Spacebar
 nnoremap <Space> za
+nnoremap <Space-S> zA
 
 set noet			" noexpandtab
 set ts=4			" length of tab equals 4 spaces
