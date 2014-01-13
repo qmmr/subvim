@@ -16,3 +16,6 @@
 [submodule "vim/base/misc"]
 	path = vim/base/misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "vim/base/surround"]
+	path = vim/base/surround
+	url = https://github.com/tpope/vim-surround.git
