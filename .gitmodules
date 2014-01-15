@@ -1,6 +1,3 @@
-[submodule "vim/base/mustache"]
-	path = vim/base/mustache
-	url = git://github.com/mustache/vim-mustache-handlebars.git
 [submodule "vim/base/fugitive"]
 	path = vim/base/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -19,3 +16,6 @@
 [submodule "vim/base/surround"]
 	path = vim/base/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/base/mustache"]
+	path = vim/base/mustache
+	url = https://github.com/juvenn/mustache.vim.git
