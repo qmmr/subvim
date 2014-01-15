@@ -19,3 +19,6 @@
 [submodule "vim/base/mustache"]
 	path = vim/base/mustache
 	url = https://github.com/juvenn/mustache.vim.git
+[submodule "vim/base/emmet"]
+	path = vim/base/emmet
+	url = https://github.com/mattn/emmet-vim.git
