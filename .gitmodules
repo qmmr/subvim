@@ -22,3 +22,6 @@
 [submodule "vim/base/emmet"]
 	path = vim/base/emmet
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim/base/rubyrunner"]
+	path = vim/base/rubyrunner
+	url = https://github.com/henrik/vim-ruby-runner.git
