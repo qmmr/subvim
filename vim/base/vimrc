@@ -88,7 +88,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 let macvim_skip_colorscheme=1
 let g:molokai_original=1
 
-highlight SignColumn guibg=#272822   
+highlight SignColumn guibg=#272822
 
 " set colorscheme to solarized
 syntax enable
@@ -99,7 +99,7 @@ if has("gui_macvim")
   " No toolbars, menu or scrollbars in the GUI
 
   "set guifont=Source\ Code\ Pro\ for\ Powerline:h15 "TODO: include these fonts by default
-  set guifont=Inconsolata\ for\ Powerline:h15
+  set guifont=Inconsolata\ for\ Powerline:h12
 
   set clipboard+=unnamed
   set vb t_vb=
@@ -213,7 +213,7 @@ com! MyCtrlPTag call MyCtrlPTag()
 
 " TODO: add javascript and some other languages who doesn't have ctags support
 " coffee: https://gist.github.com/michaelglass/5210282
-" go: http://stackoverflow.com/a/8236826/462233 
+" go: http://stackoverflow.com/a/8236826/462233
 " objc:  http://www.gregsexton.org/2011/04/objective-c-exuberant-ctags-regex/
 " rust: https://github.com/mozilla/rust/blob/master/src/etc/ctags.rust
 let g:ctrlp_buftag_types = {
